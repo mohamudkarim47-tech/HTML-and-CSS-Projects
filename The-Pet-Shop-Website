@@ -1,8 +1,1 @@
-# Add the local folder/files to staging
-git add The-Pet-Shop-Website
 
-# Commit the changes
-git commit -m "Add The-Pet-Shop-Website folder"
-
-# Push to your GitHub repository
-git push origin main
