@@ -1,4 +1,2 @@
-# HTML-and-CSS-Projects
-
-This repository contains all my coding projects, exercises, and assignments for my HTML and CSS course.
-
+# The Pet Shop Website
+A simple HTML and CSS website project for The Pet Shop.
