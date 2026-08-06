@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+/* Hover Grow Effect */
+.hover-effect:hover {
+    transform: scale(1.1);
+    background: #d1e7ff;
+}
+
+/* Shadow Effect */
+.shadow-effect {
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+
+.shadow-effect:hover {
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+}
+
+/* Rotate Effect */
+.rotate-effect:hover {
+    transform: rotate(5deg);
+    background: #ffe6cc;
+}
