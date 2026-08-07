@@ -1,0 +1,15 @@
+<h1>My One-Page Website</h1>
+
+<div class="gallery">
+    <img src="img1.jpg" onclick="openLightbox(this.src)">
+    <img src="img2.jpg" onclick="openLightbox(this.src)">
+    <img src="img3.jpg" onclick="openLightbox(this.src)">
+</div>
+
+<!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <span class="close">&times;</span>
+    <img id="lightbox-img">
+</div>
+
+<script src="script.js"></script>
