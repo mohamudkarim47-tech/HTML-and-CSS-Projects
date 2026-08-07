@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Recipes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <!-- Header & Navigation -->
+  <header>
+    <nav>
+      <h1>Simple Recipes</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#recipes">Recipes</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home / Hero Section -->
+  <section id="home">
+    <h2>Welcome to Simple Recipes</h2>
+    <p>Easy-to-follow recipes made for everyone.</p>
+  </section>
+
+  <!-- Recipes Section -->
+  <section id="recipes">
+    <h2>Featured Recipes</h2>
+    <div class="recipe-grid">
+      <article class="recipe-card">
+        <h3>Classic Pasta</h3>
+        <p>A simple, comforting meal ready in under 20 minutes.</p>
+      </article>
+      <article class="recipe-card">
+        <h3>Fresh Garden Salad</h3>
+        <p>Light, crisp, and packed with everyday fresh ingredients.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About</h2>
+    <div>
+      <h3>ABOUT US</h3>
+      <p>
+        Simple Recipes is your ultimate destination for easy-to-follow recipes that make cooking enjoyable for everyone, whether you're a seasoned chef or a beginner. Founded in the United States out of a passion for home cooking, our mission is to inspire and empower you to create delicious meals with everyday ingredients and simple techniques.
+      </p>
+      <p>
+        We offer a wide range of diverse cuisines, from classic comfort foods to international dishes, all accompanied by step-by-step instructions and helpful tips to ensure your cooking experience is smooth and successful. Our dedicated team of home cooks and food enthusiasts meticulously test each recipe, so you can cook with confidence. At Simple Recipes, we believe that good food brings people together, and we're excited to have you join our community. Let’s cook up something amazing together!
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Simple Recipes. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
