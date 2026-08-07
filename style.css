@@ -1,11 +1,29 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
-    text-align: center;
+/* Enable smooth scrolling when navbar links are clicked */
+html {
+  scroll-behavior: smooth;
 }
 
-h1 {
-    color: #2c3e50;
+/* Style the About section */
+#about {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+#about div {
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #333;
+}
+
+#about h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
 }
